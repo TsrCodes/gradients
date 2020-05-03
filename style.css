@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dfdfdf;
+}
+.piechart {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: conic-gradient(#b90303 0% 25%, #22f00e 25% 60%, #0707e0 60% 100%);
+}
+.donut {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(#dfdfdf 40%, transparent 41%),
+    conic-gradient(#b90303 0% 25%, #22f00e 25% 60%, #0707e0 60% 100%);
+  margin: 25px;
+}
